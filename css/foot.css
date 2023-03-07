@@ -1,11 +1,15 @@
-.foot{
+.row{
     background-color: #EAF2FD;
-    height: 20rem;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-right: 2rem;
 }
 
-.contact{
+.contact_logo{
+    display: grid;
+    justify-content: center;
+}
+
+/* .contact{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -13,22 +17,51 @@
     margin-left: 0;
     margin-right: 0;
     
+} */
+
+.contact_form, .contact_logo, .about{
+    width: 33%;
+} 
+
+.contact_form h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
 
-.contact_form{
-    width: 40%;
-}
-.contact_logo{
-    align-content: flex-start;
+.dev{
+    font-size: 1.2rem;
+    padding: 1.5rem 0 0 0;
 }
 
-.about{
+/* .about{
     display: flex;
     flex-wrap: wrap;
-    /* align-content: space-around; */
-}
+}*/
 
 li{
     font-size: 1.2rem;
     padding-bottom: .5rem;
+}
+
+/* Responsivo */
+
+@media (max-width:768px){
+    .row{
+        justify-content: center;
+    }
+    
+    .contact_form, .contact_logo, .about{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 0;
+
+    }
+
+    .contact_form{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
