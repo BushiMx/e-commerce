@@ -1,0 +1,33 @@
+.add_item{
+    display: flex;
+    justify-content: center;
+}
+
+.form_item{
+    width: 60%;
+    padding: 0 0 2rem 0;
+}
+
+.form-floating{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.files{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p{
+    padding: 0 1rem 0 1rem;
+}
+
+.drag_file{
+    width:200px; 
+    height:200px; 
+    border: 3px dashed #919090;
+    font-size: 1rem;
+    padding-top: 2rem;
+
+}

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/foot.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/additem.css">
 </head>
 <body>
     <section class="menu">
@@ -27,24 +28,32 @@
         </header>
     </section>
 
-    <section class="login_content">
-        <div class="form-signin">
+    <section class="add_item">
+        <div class="form_item">
             <form>
-                <h1 class="h3 mb-3 fw-normal text-center">Log In</h1>
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
+                <h1 class="h3 mb-3 fw-normal text-center">Agregar nuevo artículo</h1>
+                <div class="form-floating files">
+                    <div class="drag_file text-center" id="holder" id="holder">Arrastra un archivo</div>
+                    <p>o</p>
+                    <div class="mb-3">
+                        <!-- <label for="formFile">Seleccionar archivo</label> -->
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Nombre del Item">
+                    <label for="floatingInput">Nombre del Item</label>
                 </div>
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingPassword" placeholder="Precio del Item">
+                    <label for="floatingPassword">Precio del Item</label>
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <div class="form-floating">
+                    <textarea type="textarea" class="form-control" id="floatingDescription" placeholder="Descripción del Item" style="height: 200px"></textarea>
+                    <label for="floatingDescription">Descripción del Item</label>
+                </div>
+                
+                <button class="w-100 btn btn-lg btn-primary" type="submit" style="padding: 0 0 2rem 0;">Sign in</button>
             </form>
         </div>
     </section>
