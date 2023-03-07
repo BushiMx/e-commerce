@@ -1,0 +1,34 @@
+.foot{
+    background-color: #EAF2FD;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.contact_form{
+    width: 40%;
+}
+.contact_logo{
+    align-content: flex-start;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+}
+
+li{
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}

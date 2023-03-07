@@ -1,0 +1,16 @@
+/* .logo_name, .logo_name2{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.logo_name{
+    color: #2A7AE4;
+    padding-left: .5rem;
+} */
+.form-control{
+    border-radius: 1.375rem;
+} 
+
+.btn{
+    height: 2.5rem;
+}

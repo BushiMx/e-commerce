@@ -1,0 +1,43 @@
+.items_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content_title{
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline;
+}
+
+.card{
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+}
+
+.card-img-top{
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+    opacity: .7;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #af0606;
+}
+
+.card-text{
+    padding-bottom: 1rem;
+}
+
+/* Diseno responsivo */
+
+@media (max-width:1024px){
+    .card{
+        padding: .5rem;
+        margin: .5rem;
+    }
+}

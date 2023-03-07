@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Ecommerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/foot.css">
+</head>
+<body>
+    <section class="menu">
+        <header class="py-3 mb-4 border-bottom">
+            <div class="container d-flex flex-wrap justify-content-center ">
+                <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                    <img class="logo" src="assets/image/logo.png" alt="logo">
+                    <!-- <span class="fs-4 logo_name" color="#2A7AE4">Alura</span>
+                    <span class="fs-4 logo_name2">Geek</span> -->
+                </a>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-5" role="search">
+                    <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+                </form>
+                <button type="button" class="btn btn-outline-primary">Login</button>
+            </div>
+        </header>
+    </section>
+
+    <section class="banner">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/image/banner.png" alt="Promocion del mes" class="bd-placeholder-img banner_img">
+                    <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect width="100%" height="100%" fill="#777"/></svg> -->
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Febrero Promocional</h1>
+                            <p>Productos selecionados con 33% de descuento</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Ver consolas</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="starwars">
+            <div>
+                <h1 class="content_title">Star Wars</h1>
+            </div>
+            <div class="items_list">
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/starwars/01_mug.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Taza</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/starwars/02_legos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Taza</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/starwars/03_yoda.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Taza</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/starwars/04_stormtrupper.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Taza</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/starwars/05_babyyoda.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Taza</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/starwars/06_darkside.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Taza</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="consolas">
+            <div>
+                <h1 class="content_title">Consolas</h1>
+            </div>
+            <div class="items_list">
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/01_xboxcontrol.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Control</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/02_ps5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PS 5</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/03_nintendo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nintendo</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/04_switchcontrols.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Control</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/05_xbox.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xbox</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/06_gameboy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gameboy</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="diversos">
+            <div>
+                <h1 class="content_title">Varios</h1>
+            </div>
+            <div class="items_list">
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/varios/01_tshirt.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Playera</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/varios/02_tshirt.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Playera</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/varios/03_sonic.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sonic</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/varios/04_controls.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Control</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/varios/06_pikachu.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pikachu</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 176px;">
+                    <img src="assets/image/consolas/06_gameboy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gameboy</h5>
+                        <p class="card-text">$300.00</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="foot">
+        <div class="contact container">
+            <!-- <div class="contact_logo row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"> -->
+            <div class="contact_logo row row-cols-1 row-cols-sm-2 row-cols-md-5 border-top">
+                <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                    <img class="logo" src="assets/image/logo.png" alt="logo">
+                    <!-- <span class="fs-4 logo_name" color="#2A7AE4">Alura</span>
+                    <span class="fs-4 logo_name2">Geek</span> -->
+                </a>
+            </div>
+            <div class="about ">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quiénes somos</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Políticas de privacidad</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Programa de fidelidad</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nuestras tiendas</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quiero ser franquiciado</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Anunciate aquí</a></li>
+                </ul>
+            </div>
+            
+            <div class="contact_form">
+                <form action="">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary form_btn" style="margin-top: 1rem">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="py-3 my-4">
+        <p class="text-center" style="font-size: 1.1rem">&copy; 2023 David Escobar - BushiMx</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
