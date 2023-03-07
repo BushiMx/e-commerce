@@ -1,0 +1,10 @@
+.login_content{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.form-signin{
+    width: 33%;
+
+}
