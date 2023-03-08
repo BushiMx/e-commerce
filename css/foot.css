@@ -9,16 +9,6 @@
     justify-content: center;
 }
 
-/* .contact{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5rem 0;
-    margin-left: 0;
-    margin-right: 0;
-    
-} */
-
 .contact_form, .contact_logo, .about{
     width: 33%;
 } 
@@ -33,11 +23,6 @@
     font-size: 1.2rem;
     padding: 1.5rem 0 1.5rem 0;
 }
-
-/* .about{
-    display: flex;
-    flex-wrap: wrap;
-}*/
 
 li{
     font-size: 1.2rem;

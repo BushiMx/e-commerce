@@ -1,11 +1,10 @@
-.add_item{
-    display: flex;
-    justify-content: center;
-}
-
 .form_item{
     width: 60%;
     padding: 0 0 2rem 0;
+}
+
+.select_file{
+    width: 65%;
 }
 
 .form-floating{
@@ -30,4 +29,15 @@ p{
     font-size: 1rem;
     padding-top: 2rem;
 
+}
+
+@media (max-width:1200px){
+    .select_file{
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .files{
+        justify-content: center;
+    }
 }
